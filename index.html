@@ -1,18 +1,363 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Escolinha Infantil</title>
-        <link rel="shortcut icon" type="img/x-icon" href="./img/kalangos.ico">
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-        />
-        <link rel="stylesheet" href="style.css" />
-        <script src="script.js" defer></script>
-    </head>
-    <body>
-        <h1>Hello world</h1>
-    </body>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Escolinha Infantil</title>
+    <link rel="shortcut icon" type="img/x-icon" href="./img/kalangos.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+    <!--header section starts-->
+    <header>
+        <a href="#" class="logo"><i class="fas fa-child"></i>escolinha Infantil</a>
+
+        <div class="fas fa-bars" id="menu-bars"></div>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#features">recursos</a>
+            <a href="#about">sobre</a>
+            <a href="#services">serviços</a>
+            <a href="#teacher">professores</a>
+            <a href="#pricing">valores</a>
+            <a href="#contact">contatos</a>
+        </nav>
+    </header>
+    <!--header section ends-->
+
+    <!--home section starts-->
+    <section class="home background" id="home">
+        <div class="content">
+            <h1>bem vindo crianças</h1>
+            <h3>tornando o aprendizado mais divertido</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Error atque, maiores rerum voluptate dignissimos quis
+                ipsum obcaecati. Totam, corrupti deleniti magni itaque minus,
+                tempore sequi facilis aut a excepturi error aliquid deserunt,
+                amet sed earum. Impedit cumque dignissimos saepe fugit!
+            </p>
+            <a href="#" class="btn">saiba mais</a>
+        </div>
+
+        <div class="image">
+            <img src="img/home-img.png" alt="">
+        </div>
+    </section>
+    <!--home section ends-->
+
+    <!--features section starts-->
+    <section class="features up-and-down" id="features">
+        <div class="box-container">
+            <h3 class="title">por que as crianças nos amam</h3>
+            <div class="box">
+                <img src="img/left-icon1.png" alt="" srcset="">
+                <div class="info">
+                    <h3>conversas divertidas</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, cumque!</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/left-icon2.png" alt="">
+                <div class="info">
+                    <h3>muitas atividades</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, id.</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/left-icon3.png" alt="">
+                <div class="info">
+                    <h3>diversão sem parar</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, consectetur?</p>
+                </div>
+            </div>
+        </div>
+
+        <img class="stick" src="img/stick.png" alt="">
+
+        <div class="box-container">
+            <h3 class="title">por que os pais nos amam</h3>
+            <div class="box">
+                <img src="img/right-icon1.png" alt="" srcset="">
+                <div class="info">
+                    <h3>monitoração continua</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, deserunt.</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/right-icon2.png" alt="">
+                <div class="info">
+                    <h3>professores especializados</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, id.</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/right-icon3.png" alt="">
+                <div class="info">
+                    <h3>programa de desenvolvimento</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, consectetur?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--features section ends-->
+
+    <!--about section starts-->
+    <section class="about background" id="about">
+        <div class="image">
+            <img src="img/about-img.png" alt="">
+        </div>
+        <div class="content">
+            <h3>uma palavra sobre nós</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Autem modi beatae optio, amet rem perspiciatis excepturi
+                eligendi eos possimus architecto nostrum molestiae,
+                voluptas quas tempora, atque quos nobis in animi! Vero
+                alias sed, dignissimos maxime asperiores est maiores vitae labore.
+            </p>
+            <a href="#" class="btn">saiba mais</a>
+        </div>
+    </section>
+    <!--about section ends-->
+
+    <!--services section starts-->
+    <section class="services up-and-down" id="services">
+        <h1 class="heading">o que nós ensinamos aos seus filhos</h1>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="img/s1.jpg" alt="">
+                <div class="info">
+                    <h3>ler e escrever</h3>
+                </div>
+            </div>
+            
+            <div class="box">
+                <img src="img/s2.jpg" alt="">
+                <div class="info">
+                    <h3>aulas de artesanato</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/s3.jpg" alt="">
+                <div class="info">
+                    <h3>aulas de desenhos</h3>
+                </div>
+            </div>
+            
+            <div class="box">
+                <img src="img/s4.jpg" alt="">
+                <div class="info">
+                    <h3>aulas de inglês</h3>
+                </div>
+            </div>
+            
+            <div class="box">
+                <img src="img/s5.jpg" alt="">
+                <div class="info">
+                    <h3>playground infantil</h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/s6.jpg" alt="">
+                <div class="info">
+                    <h3>escolinha de futebol</h3>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--services section ends-->
+
+    <!--teacher section starts-->
+    <section class="teacher" id="teacher">
+        <h1 class="heading">nossos incríveis professores</h1>
+        <div class="box-container">
+            
+            <div class="box">
+                <img src="img/teacher-1.png" alt="">
+                <h3>fulana de tal</h3>
+                <span>professor</span>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="" class="fab fa-linkedin"></a>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Blanditiis cum doloribus ratione sint maiores eveniet hic porro? 
+                    Maxime fugit aliquam dolorem, quibusdam, quae facilis possimus, 
+                    deleniti laudantium excepturi vero hic.
+                </p>
+            </div>
+            
+            <div class="box">
+                <img src="img/teacher-2.png" alt="">
+                <h3>beltrano de tal</h3>
+                <span>professor</span>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="" class="fab fa-linkedin"></a>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Blanditiis cum doloribus ratione sint maiores eveniet hic porro? 
+                    Maxime fugit aliquam dolorem, quibusdam, quae facilis possimus, 
+                    deleniti laudantium excepturi vero hic.
+                </p>
+            </div>
+            
+            <div class="box">
+                <img src="img/teacher-3.png" alt="">
+                <h3>sicrana de tal</h3>
+                <span>professor</span>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="" class="fab fa-linkedin"></a>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Blanditiis cum doloribus ratione sint maiores eveniet hic porro? 
+                    Maxime fugit aliquam dolorem, quibusdam, quae facilis possimus, 
+                    deleniti laudantium excepturi vero hic.
+                </p>
+            </div>
+            
+            <div class="box">
+                <img src="img/teacher-4.png" alt="">
+                <h3>tetrano de tal</h3>
+                <span>professor</span>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="" class="fab fa-linkedin"></a>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Blanditiis cum doloribus ratione sint maiores eveniet hic porro? 
+                    Maxime fugit aliquam dolorem, quibusdam, quae facilis possimus, 
+                    deleniti laudantium excepturi vero hic.
+                </p>
+            </div>
+
+        </div>
+    </section>
+    <!--teacher section ends-->
+
+    <!--pricing section starts-->
+    <section class="pricing up-and-down" id="pricing">
+        <h1 class="heading">nossas mensalidades</h1>
+        <div class="box-container">
+
+            <div class="box" style="background: url(img/card-bg1.png) no-repeat;">
+                <h3>semanal</h3>
+                <div class="price"><span>R$</span>49,90</div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Odio atque aperiam mollitia consequuntur numquam incidunt 
+                    sunt ex? Ut, eaque dicta quaerat, autem vitae id earum, 
+                    dolore illo nemo nesciunt beatae.
+                </p>
+                <a href="#" class="btn">escolha um plano</a>
+            </div>
+            
+            <div class="box" style="background: url(img/card-bg2.png) no-repeat;">
+                <span class="choise">melhor<br>escolha</span>
+                <h3>mensal</h3>
+                <div class="price"><span>R$</span>199,90</div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Odio atque aperiam mollitia consequuntur numquam incidunt 
+                    sunt ex? Ut, eaque dicta quaerat, autem vitae id earum, 
+                    dolore illo nemo nesciunt beatae.
+                </p>
+                <a href="#" class="btn">escolha um plano</a>
+            </div>
+            
+            <div class="box" style="background: url(img/card-bg3.png) no-repeat;">
+                <h3>anual</h3>
+                <div class="price"><span>R$</span>2.499,90</div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Odio atque aperiam mollitia consequuntur numquam incidunt 
+                    sunt ex? Ut, eaque dicta quaerat, autem vitae id earum, 
+                    dolore illo nemo nesciunt beatae.
+                </p>
+                <a href="#" class="btn">escolha um plano</a>
+            </div>
+
+        </div>
+    </section>
+    <!--pricing section ends-->
+
+    <!--contact section starts-->
+    <section class="contact background" id="contact">
+        <div class="row">
+
+            <div class="contact-info">
+                <div class="box">
+                    <h3 class="title">nossos contatos</h3>
+                    <p> <i class="fas fa-map-marker alt"></i> recife, pernambuco</p>
+                    <p> <i class="fas fa-envelope"></i> odlimor.sevla@gmail.com</p>
+                    <p> <i class="fas fa-phone"></i> (81) 9 9470 1058</p>
+                    <p> <i class="fas fa-phone"></i> (83) 9 8600 3492</p>
+                </div>
+                
+                <div class="box">
+                    <h3 class="title">nos siga</h3>
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="" class="fab fa-linkedin"></a>
+                </div>
+
+                <div class="box">
+                    <h3 class="title">notícias</h3>
+                    <form action="">
+                        <input type="email" placeholder="seu email" name="" id="">
+                        <input type="submit" class="btn" value="enviar">
+                    </form>
+                </div>
+            </div>
+
+            <form action="" class="contact-form">
+                <h3>contato</h3>
+                <input type="text" placeholder="nome" class="box" name="" id="">
+                <input type="email" placeholder="email" class="box" name="" id="">
+                <input type="tel" placeholder="telefone" class="box" name="" id="">
+                <textarea class="box message" placeholder="mensagem" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="enviar mensagem" class="btn">
+            </form>
+
+        </div>
+        <div class="image">
+            <img src="img/contact-img.png" alt="">
+        </div>
+    </section>
+    <!--contact section ends-->
+
+    <!--footer section starts-->
+    <div class="footer">
+        desenvolvido por <span>Romildo Jr.</span> | all rights reserved
+    </div>
+    <!--footer section ends-->
+
+
+    <script src="js/script.js"></script>
+</body>
+
 </html>
